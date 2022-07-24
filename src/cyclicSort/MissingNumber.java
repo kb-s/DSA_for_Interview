@@ -1,5 +1,8 @@
 package cyclicSort;
 
+// also check the array's hard package where you can find the missing Positive number problem
+//which is also solved by using the cyclic sort algorithm
+
 public class MissingNumber {
     public static void main(String[] args) {
         int[] arr = {3,0,1};
