@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class FirstMissingPositive {
     public static void main(String[] args) {
-        int[] arr = {5,1,-1,2,4};
+        int[] arr = {5,1,-1,2,3};
         System.out.println(firstMissingPositive(arr));
 
     }
