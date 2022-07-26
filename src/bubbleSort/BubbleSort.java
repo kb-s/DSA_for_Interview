@@ -2,6 +2,8 @@ package bubbleSort;
 
 import java.util.Arrays;
 
+//https://leetcode.com/problems/sort-colors
+
 public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5};
