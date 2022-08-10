@@ -9,6 +9,7 @@ public class findAllindex {
         ArrayList<Integer> list1 = new ArrayList<>();
 
         System.out.println(findIndex2(arr,target,0,list1));
+        System.out.println(findIndex3(arr,target,0));
         //System.out.println(list);
     }
     static ArrayList<Integer> list = new ArrayList<>();
@@ -38,4 +39,23 @@ public class findAllindex {
 
     }
 
-}
+    //this method will create the object again & again , it is not a opmized way but some problem may use it
+    static ArrayList findIndex3(int[] arr, int target, int index) {
+
+        ArrayList<Integer> list = new ArrayList<>();
+
+        if (index == arr.length) {
+            return list;
+        }
+        if (arr[index] == target) {
+            list.add(index);
+        }
+
+        ArrayList<Integer> ansFromBelowCalls = findIndex3(arr, target, index + 1);
+        list.addAll(ansFromBelowCalls);
+
+        return list;
+    }
+
+
+    }
