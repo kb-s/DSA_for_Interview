@@ -6,8 +6,10 @@ public class findAllindex {
     public static void main(String[] args) {
         int[] arr = {1,2,4,4,6,45,4};
         int target = 4;
-        findIndex(arr,target,0);
-        System.out.println(list);
+        ArrayList<Integer> list1 = new ArrayList<>();
+
+        System.out.println(findIndex2(arr,target,0,list1));
+        //System.out.println(list);
     }
     static ArrayList<Integer> list = new ArrayList<>();
 
@@ -20,6 +22,19 @@ public class findAllindex {
         }
 
         findIndex(arr,target,index+1);
+
+    }
+    //We can solve this without using void means we can  solve this by using ArrayList or something else
+    //it will reduce the space
+    static ArrayList findIndex2(int[] arr, int target, int index, ArrayList<Integer> list1){
+        if(index == arr.length){
+            return list1;
+        }
+        if(arr[index]==target){
+            list1.add(index);
+        }
+
+        return findIndex2(arr,target,index+1,list1);
 
     }
 
