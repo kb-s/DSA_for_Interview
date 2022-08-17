@@ -3,11 +3,13 @@
 All the codes are written in java you can use any language, your life your choice***
 
 |Topic | Problem |
-|-------------------:|:-------------------|
-|Array | [Two Sum](https://github.com/kb-s/DSA_for_Interview/blob/master/src/array/easy/TwoSum.java)||
+|:-------------------|:--------------------------------|
+|Array(Easy) | [Two Sum](https://github.com/kb-s/DSA_for_Interview/blob/master/src/array/easy/TwoSum.java)||
 |      | [Running Sum of 1D Array](https://github.com/kb-s/DSA_for_Interview/blob/master/src/array/easy/RuningSumOf1Darray.java)|
 |      | [Plus One](https://github.com/kb-s/DSA_for_Interview/blob/master/src/array/easy/PlusOne.java)|
 |      | [Move Zeroes](https://github.com/kb-s/DSA_for_Interview/blob/master/src/array/easy/MoveZeroes.java)
 |      | [Find Pivot Index](https://github.com/kb-s/DSA_for_Interview/blob/master/src/array/easy/FindPivotIndex.java)
 |      | [Best time to buy & sell stock](https://github.com/kb-s/DSA_for_Interview/blob/master/src/array/easy/BestTimetoBuyandSellStock.java)
 |      | [Best time to buy & sell stock 2](https://github.com/kb-s/DSA_for_Interview/blob/master/src/array/easy/BestTimeToBuyandSellStock2.java)
+|Array(Medium) | [Three sum](https://github.com/kb-s/DSA_for_Interview/blob/master/src/array/medium/ThreeSum.java)
+|              | [Subarray sum is equal k](https://github.com/kb-s/DSA_for_Interview/blob/master/src/array/medium/SubarraySumEqualsK.java)
