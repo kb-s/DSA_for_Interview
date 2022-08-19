@@ -26,7 +26,4 @@ All the codes are written in java you can use any language, your life your choic
 |              | [Peak Index Mountain Array](https://github.com/kb-s/DSA_for_Interview/blob/master/src/binarysearch/PeakIndexMountainArray.java)
 |              | [Infinite Sorted Array](https://github.com/kb-s/DSA_for_Interview/blob/master/src/binarysearch/InfineSortedArray.java)
 |              | []()
-|              | []()
-|              | []()
-|              | []()
-|              | []()
+
