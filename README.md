@@ -26,5 +26,7 @@ All the codes are written in java you can use any language, your life your choic
 |              | [Peak Index Mountain Array](https://github.com/kb-s/DSA_for_Interview/blob/master/src/binarysearch/PeakIndexMountainArray.java)
 |              | [Infinite Sorted Array](https://github.com/kb-s/DSA_for_Interview/blob/master/src/binarysearch/InfineSortedArray.java)
 |Bitwise Operators  | [Factors of a Number](https://github.com/kb-s/DSA_for_Interview/blob/master/src/bitwiseOperators/FactorsOfANumber.java)
-
-
+|                   |[Find Unique](https://github.com/kb-s/DSA_for_Interview/blob/master/src/bitwiseOperators/FindUnique.java)
+|                   |[Flip an Image](https://github.com/kb-s/DSA_for_Interview/blob/master/src/bitwiseOperators/FlippingAnImage.java)
+|                   |[GCD & LCM](https://github.com/kb-s/DSA_for_Interview/blob/master/src/bitwiseOperators/GCD_LCM.java)
+|                   |[]()
