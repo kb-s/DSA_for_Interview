@@ -33,5 +33,5 @@ All the codes are written in java you can use any language, your life your choic
 |Sorting            |[Bubble Sort](https://github.com/kb-s/DSA_for_Interview/blob/master/src/bubbleSort/BubbleSort.java)
 |                   |[Find All No. Disappered in Array(Cyclic Sort)](https://github.com/kb-s/DSA_for_Interview/blob/master/src/cyclicSort/FindAllNoDissappearedInArray.java)
 |                   |[Missing Number(Cyclic Sort)](https://github.com/kb-s/DSA_for_Interview/blob/master/src/cyclicSort/MissingNumber.java)
-|                   |[]()
+|                   |[Quick Sort](https://github.com/kb-s/DSA_for_Interview/blob/master/src/quickSort/QuickSort.java)
 |                   |[]()
