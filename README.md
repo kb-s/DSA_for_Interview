@@ -38,3 +38,4 @@ All the codes are written in java you can use any language, your life your choic
 |Recursion          |[Letter Combinations](https://github.com/kb-s/DSA_for_Interview/blob/master/src/recursion/LetterCombinations.java)
 |                   |[Path Restrictions](https://github.com/kb-s/DSA_for_Interview/blob/master/src/recursion/PathRestrictions.java)
 |                   |[Dice ](https://github.com/kb-s/DSA_for_Interview/blob/master/src/recursion/Dice.java)
+|                   |[Diaognal Path](https://github.com/kb-s/DSA_for_Interview/blob/master/src/recursion/IncludeDiaognalPath.java)
