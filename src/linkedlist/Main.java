@@ -9,6 +9,7 @@ public class Main {
         ll.insertFirst(6);
         ll.insertLast(56);
         ll.insertLast(34);
+        ll.insert(100,3);
         ll.display();
 
     }
