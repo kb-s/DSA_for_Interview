@@ -5,9 +5,12 @@ public class LL {
     private Node head;
     private Node tail;
     private int size;
-    public LL(int size) {
+
+    public LL() {
         this.size = 0;
     }
+
+
     public void insertFirst(int val){
         Node node = new Node(val);
         node.next = head;
@@ -18,6 +21,14 @@ public class LL {
         }
         size += 1;
 
+    }
+    public void display(){
+        Node temp = head;
+        while (temp != null){
+            System.out.print(temp.value + "-->");
+            temp = temp.next;
+        }
+        System.out.print("END");
     }
 
     private class Node{
