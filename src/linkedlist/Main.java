@@ -13,9 +13,10 @@ public class Main {
 
         //ll.insert(100,3);
         ll.display();
-        System.out.println(ll.deleteLast());
-        ll.display();
-
+        System.out.println();
+        //System.out.println(ll.deleteLast());
+        //ll.display();
+        System.out.println(ll.delete(2));
         ll.display();
 
     }
