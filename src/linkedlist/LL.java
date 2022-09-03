@@ -1,5 +1,7 @@
 package linkedlist;
 
+import javax.print.attribute.standard.NumberOfDocuments;
+
 public class LL {
 
     private Node head;
@@ -22,6 +24,15 @@ public class LL {
         size += 1;
 
     }
+    public void insertLast(int val){
+        if(tail == null){
+            insertFirst(val);
+        }
+        Node node = new Node(val);
+        tail.next = node;
+        tail = node;
+        size += 1;
+    }
     public void display(){
         Node temp = head;
         while (temp != null){
@@ -30,6 +41,7 @@ public class LL {
         }
         System.out.print("END");
     }
+
 
     private class Node{
         private int value;
