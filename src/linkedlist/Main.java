@@ -9,7 +9,13 @@ public class Main {
         ll.insertFirst(6);
         ll.insertLast(56);
         ll.insertLast(34);
-        ll.insert(100,3);
+        //System.out.println(ll.deleteFirst());
+
+        //ll.insert(100,3);
+        ll.display();
+        System.out.println(ll.deleteLast());
+        ll.display();
+
         ll.display();
 
     }
