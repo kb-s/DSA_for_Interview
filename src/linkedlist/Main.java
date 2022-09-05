@@ -21,6 +21,21 @@ public class Main {
         System.out.println();
         ll.insertRec(7,3);
         ll.display();
+        System.out.println();
 
+        LL first = new LL();
+        LL second = new LL();
+        first.insertLast(1);
+        first.insertLast(2);
+        first.insertLast(5);
+
+        second.insertLast(1);
+        second.insertLast(3);
+        second.insertLast(6);
+        second.insertLast(9);
+        second.insertLast(15);
+
+        LL ans = LL.merge(first,second);
+        ans.display();
     }
 }
