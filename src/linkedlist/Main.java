@@ -18,6 +18,9 @@ public class Main {
         //ll.display();
         System.out.println(ll.delete(2));
         ll.display();
+        System.out.println();
+        ll.insertRec(7,3);
+        ll.display();
 
     }
 }
